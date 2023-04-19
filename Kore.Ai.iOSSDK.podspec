@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Kore.Ai.iOSSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Kore.Ai.iOSSDK.'
+  s.summary          = 'Kore.ai iOS SDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/75276697/Kore.Ai.iOSSDK'
+  s.homepage         = 'https://github.com/rnegreirosbh/git-koreai-iossdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '75276697' => 'joao.souza@mobilus.com.br' }
-  s.source           = { :git => 'https://github.com/75276697/Kore.Ai.iOSSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/rnegreirosbh/git-koreai-iossdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'Kore.Ai.iOSSDK/Classes/**/*'
   
@@ -39,4 +39,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '4.1'
 end

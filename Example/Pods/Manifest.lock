@@ -1,0 +1,16 @@
+PODS:
+  - Kore.Ai.iOSSDK (0.1.0)
+
+DEPENDENCIES:
+  - Kore.Ai.iOSSDK (from `../`)
+
+EXTERNAL SOURCES:
+  Kore.Ai.iOSSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Kore.Ai.iOSSDK: 5fd5cfe5aa5a286af8578745396f0cb302037b77
+
+PODFILE CHECKSUM: c58d263772f33c385f2b0857049ba09cb6ac1c40
+
+COCOAPODS: 1.12.0

@@ -1,0 +1,24 @@
+{
+  "name": "Kore.Ai.iOSSDK",
+  "version": "0.1.0",
+  "summary": "Kore.ai iOS SDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rnegreirosbh/git-koreai-iossdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "75276697": "joao.souza@mobilus.com.br"
+  },
+  "source": {
+    "git": "https://github.com/rnegreirosbh/git-koreai-iossdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "Kore.Ai.iOSSDK/Classes/**/*",
+  "swift_versions": "4.1",
+  "swift_version": "4.1"
+}

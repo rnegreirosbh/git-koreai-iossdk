@@ -1,0 +1,6 @@
+framework module Kore_Ai_iOSSDK {
+  umbrella header "Kore.Ai.iOSSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
